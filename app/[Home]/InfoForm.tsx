@@ -66,7 +66,7 @@ const InfoForm: React.FC = () => {
                             </div>
                         ))}
                         <div>
-                            <button className="bg-[#C9D851] hover:bg-blue-700 text-white mt-3 text-base font-semibold w-full py-2.5 px-10 whitespace-nowrap">
+                            <button className="bg-[#C9D851] hover:bg-blue-700 text-white lg:mt-5 text-base font-semibold w-full py-2.5 px-10 whitespace-nowrap">
                                 Book Now
                             </button>
                         </div>
