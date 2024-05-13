@@ -26,3 +26,19 @@ export const images = [
   },
   // Add more images as needed
 ];
+export const imageData = {
+  imageUrl: "Frame.png"
+};
+
+export const textData = {
+  title: "FREE",
+  description: ["home sample", "collection"],
+};
+
+export const formData = {
+  fields: [
+    { label: "Name" },
+    { label: "Phone number", type: "tel" },
+    { label: "Package/test", type: "select", options: ["Package/test", "Option 2", "Option 3"] }
+  ]
+};
