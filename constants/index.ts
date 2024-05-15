@@ -64,7 +64,7 @@ export const packages = [
     image: '/package1500.png',
   },
   {
-    id: 2,
+    id: 1,
     title: 'Swasth Bihar Wellness 2',
     tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Thyroid Profile Total', 'Liver Function Test', 'HbA1c (HPLC)','Kidney Function Test' ],
     discount: '45%',

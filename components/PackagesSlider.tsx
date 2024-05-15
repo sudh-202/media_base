@@ -30,11 +30,11 @@ const TabSection = () => {
             </div>
 
 
-            <div className="mt-6 flex lg:flex-row flex-col  gap-0.5 h-fit">
+            <div className="mt-6 flex lg:flex-row flex-col  gap-0.5 ">
                 {packages.map((pkg) => (
                     <div key={pkg.id} className="flex flex-row relative  rounded-lg shadow-md mb-6 ">
-                        <img src={pkg.image} alt={pkg.title} className="rounded-lg w-full object-contain h-fill" />
-                        <div className="absolute top-0 left-0 lg:px-10 px-2 lg:py-6 py-2 w-full h-fill flex flex-col  justify-between  rounded-lg">
+                        <img src={pkg.image} alt={pkg.title} className="rounded-lg w-full object-contain" />
+                        <div className="absolute top-0 left-0 lg:px-10 px-2 lg:py-6 py-2 w-full h-full flex flex-col  justify-between  rounded-lg">
                             <div>
                                 <h3 className="lg:text-2xl text-sm  font-semibold mb-2 text-black">{pkg.title}</h3>
                                 <div className="flex f flex-wrap gap-1 lg:gap-2 mb-2 lg:w-[90%] w-full">
