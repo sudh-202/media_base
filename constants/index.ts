@@ -66,7 +66,7 @@ export const packages = [
   {
     id: 2,
     title: 'Swasth Bihar Wellness 2',
-    tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Thyroid Profile Total', 'Liver Function Test', 'Kidney Function Test', 'HbA1c (HPLC)'],
+    tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Thyroid Profile Total', 'Liver Function Test', 'HbA1c (HPLC)','Kidney Function Test' ],
     discount: '45%',
     mrp: '₹3320',
     price: '₹1826',
