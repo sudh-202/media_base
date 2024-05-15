@@ -8,12 +8,12 @@ const TabSection = () => {
 
     return (
         <div className="container mx-auto px-4 py-6">
-            <div className="flex justify-between bg-gray-200 rounded-lg overflow-hidden">
+            <div className="flex justify-between gap-2 overflow-hidden">
                 {tabs.map((tab) => (
                     <button
                         key={tab.id}
                         onClick={() => setActiveTab(tab.id)}
-                        className={`flex-1 py-2 px-4 text-center ${activeTab === tab.id ? 'bg-green-400 text-white' : 'bg-white text-black'}`}
+                        className={`flex-1 py-4 px-6 text-center ${activeTab === tab.id ? 'bg-[#C9D851] text-black' : 'bg-white text-black'}`}
                     >
                         {tab.name}
                     </button>
@@ -36,7 +36,7 @@ const TabSection = () => {
                             </div>
 
 
-                            <div className="flex items-center rounded-l-lg justify-between text-black w-[80%] rounded-r-lg bg-[#52B2AD] pl-2.5 ">
+                            <div className="flex items-center rounded-l-lg justify-between text-black w-[80%] rounded-r-lg bg-[#52B2AD] pl-2.5  ">
                                 <div className="  flex flex-col rounded-l-lg bg-[#52B2AD]">
                                     <div className=' font-semibold text-white'> Discount
                                         <div className='text-3xl'>{pkg.discount}
@@ -44,8 +44,8 @@ const TabSection = () => {
                                     </div>
                                 </div>
 
-                                <div className="text-right flex flex-row rounded-r-lg bg-[#C9D851] pl-2.5 pr-2.5 pt-2.5  gap-4">
-                                    <div className='flex flex-row gap-2 items-center'>MRP -
+                                <div className="text-right flex flex-row rounded-r-lg bg-[#C9D851] pl-2.5 pr-2.5 gap-4">
+                                    <div className='flex flex-row gap-2 font-normal items-center'>MRP -
                                         <div className="block line-through "> {pkg.mrp}</div>
                                     </div>
                                     <div className='flex flex-col gap-1'>Discounted Price
