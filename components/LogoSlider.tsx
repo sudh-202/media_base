@@ -1,4 +1,4 @@
-// components/CardSlider.tsx
+// components/LogoSlider.tsx
 
 import React from 'react';
 import { cards } from '@/constants/index';
@@ -39,7 +39,7 @@ const RightArrow = () => (
 );
 
 
-const CardSlider: React.FC = () => {
+const LogoSlider: React.FC = () => {
   return (
 
     // Desktop View
@@ -80,4 +80,4 @@ const CardSlider: React.FC = () => {
   );
 };
 
-export default CardSlider;
+export default LogoSlider;

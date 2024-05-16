@@ -4,6 +4,7 @@ import Hero from "./[Home]/Hero";
 import InfoForm from "./[Home]/InfoForm";
 import InfoSlider from "./[Home]/infoSlider";
 import InfoPackages from "./[Home]/infoPackages";
+import AboutMedia from "./[Home]/about/aboutMedia";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <InfoForm/>
       <InfoSlider />
       <InfoPackages />
+      <AboutMedia />
     </>
   )
 }

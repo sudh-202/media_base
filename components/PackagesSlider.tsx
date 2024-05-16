@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { packages, tabs } from '@/constants/index';
 import Pagination from "@/components/pagination";
 
-const TabSection = () => {
+const PackagesSlider = () => {
     const [activeTab, setActiveTab] = useState(1);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 1; // Set the number of items per page
@@ -79,4 +79,4 @@ const TabSection = () => {
     );
 };
 
-export default TabSection;
+export default PackagesSlider;

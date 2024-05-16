@@ -1,5 +1,5 @@
 import { images } from "@/constants";
-import ImageSlider from "./ImageSlider";
+import ImageSlider from "../../components/ImageSlider";
 
 const Hero = () => {
 

@@ -8,12 +8,14 @@ export const NAV_LINKS = [
   { href: "/", key: "contactus", label: "Contact us" },
 ];
 
+// HomePage
+
 export const container_images = [
   "/con1.png",
   "/con2.png",
   "/con3.png",
   "/con4.png",
-  // Add more image URLs as needed
+
 ];
 export const images = [
   {
@@ -24,7 +26,7 @@ export const images = [
     desktop: "/B.png",
     mobile: "/MobileBanner1.png",
   },
-  // Add more images as needed
+
 ];
 export const imageData = {
   imageUrl: "Frame.png"
@@ -74,6 +76,16 @@ export const packages = [
     price: '₹1826',
     image: '/package1826.png',
   },
+  // {
+  //   id: 3,
+  //   tabId: 3, 
+  //   title: 'Test',
+  //   tests: ['CBC',  'Thyroid Profile Total', 'Liver Function Test', 'HbA1c (HPLC)','Kidney Function Test' ],
+  //   discount: '25%',
+  //   mrp: '₹2320',
+  //   price: '₹1626',
+  //   image: '/package1826.png',
+  // },
 ];
 
 export const tabs = [
@@ -81,4 +93,17 @@ export const tabs = [
   { id: 2, tabId: 1,  name: 'Full Body Special Packages' },
   { id: 3, tabId: 1, name: 'Medi Bridge Special Packages' },
   { id: 4, tabId: 1, name: 'Special Health Packages' },
+];
+
+export const carouselImages = [
+
+  {
+    desktop: "/mediabox.png",
+    mobile: "/sliderbanner1.png",
+  },
+  {
+    desktop: "/mediabox.png",
+    mobile: "/MobileBanner1.png",
+  },
+
 ];
