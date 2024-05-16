@@ -7,13 +7,15 @@ import Pagination from "@/components/pagination";
 const TabSection = () => {
     const [activeTab, setActiveTab] = useState(1);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 3; // Set the number of items per page
+    const itemsPerPage = 1; // Set the number of items per page
+
+    const filteredPackages = packages.filter(pkg => pkg.tabId === activeTab);
 
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    const currentItems = packages.slice(indexOfFirstItem, indexOfLastItem);
+    const currentItems = filteredPackages.slice(indexOfFirstItem, indexOfFirstItem + itemsPerPage);
 
-    const totalPages = Math.ceil(packages.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredPackages.length / itemsPerPage);
 
     return (
         <div className="container mx-auto px-4 py-6">

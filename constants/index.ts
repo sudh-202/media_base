@@ -56,6 +56,7 @@ export const cards = [
 export const packages = [
   {
     id: 1,
+    tabId: 1, 
     title: 'Swasth Bihar Wellness 1',
     tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Liver Function Test', 'Kidney Function Test'],
     discount: '40%',
@@ -64,7 +65,8 @@ export const packages = [
     image: '/package1500.png',
   },
   {
-    id: 1,
+    id: 2,
+    tabId: 2, 
     title: 'Swasth Bihar Wellness 2',
     tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Thyroid Profile Total', 'Liver Function Test', 'HbA1c (HPLC)','Kidney Function Test' ],
     discount: '45%',
@@ -75,8 +77,8 @@ export const packages = [
 ];
 
 export const tabs = [
-  { id: 1, name: 'Swasth Bihar Packages' },
-  { id: 2, name: 'Full Body Special Packages' },
-  { id: 3, name: 'Medi Bridge Special Packages' },
-  { id: 4, name: 'Special Health Packages' },
+  { id: 1, tabId: 1,  name: 'Swasth Bihar Packages' },
+  { id: 2, tabId: 1,  name: 'Full Body Special Packages' },
+  { id: 3, tabId: 1, name: 'Medi Bridge Special Packages' },
+  { id: 4, tabId: 1, name: 'Special Health Packages' },
 ];
