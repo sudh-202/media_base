@@ -107,3 +107,44 @@ export const carouselImages = [
   },
 
 ];
+
+// FOOTER SECTION
+export const FOOTER_LINKS = [
+  {
+    title: '',
+    links: [
+      'Home',
+      'About us',
+      'Collection centre',
+      'Diagnostic Services',
+      'Blog',
+      'Career',
+      'Media',
+      'Making Healthcare Better',
+      'Contact Us',
+    ],
+  },
+  {
+    title: 'Packages',
+    links: ['Swasth Bihar Packages', 'Full Body Special Packages', 'Medi Bridge Special Packages', 'Special Health Packages'],
+  },
+];
+
+export const FOOTER_CONTACT_INFO = {
+  title: 'Get your report Download App Now',
+  links: [
+    { label: 'Admin Officer', value: '123-456-7890' },
+    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+  ],
+};
+
+export const SOCIALS = {
+  title: '',
+  links: [
+    '/facebook.svg',
+    '/instagram.svg',
+    '/twitter.svg',
+    '/youtube.svg',
+    '/wordpress.svg',
+  ],
+};
