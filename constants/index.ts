@@ -55,6 +55,12 @@ export const cards = [
   { id: 6, title: 'Fertility', icon: '/Firtility.png' },
 ];
 
+export const packageImages = {
+  swasthBiharWellness1: '/images/swasth_bihar_wellness1.jpg',
+  swasthBiharWellness2: '/images/swasth_bihar_wellness2.jpg',
+  // Add more image URLs as needed
+};
+
 export const packages = [
   {
     id: 1,
