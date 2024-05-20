@@ -20,7 +20,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
         {tabs.map((tab, index) => (
           <button
             key={index}
-            className={`py-2 px-4 mr-2 text-sm lg:text-base ${activeTab === index ? 'border-b-2 bg-[#C9D851] text-black' : 'bg-[#FFFEFE] text-gray-600'}`}
+            className={` py-2 px-4 mr-2 text-sm lg:text-base ${activeTab === index ? 'border-b-2 bg-[#C9D851] text-black' : 'bg-[#FFFEFE] text-gray-600'}`}
             onClick={() => setActiveTab(index)}
           >
             {tab.label}
@@ -28,7 +28,9 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
         ))}
       </div>
       <div className="py-4">
+       
         {tabs[activeTab]?.content}
+        
       </div>
     </div>
   );

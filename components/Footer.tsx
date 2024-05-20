@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
 
         
-        <p className="regular-14 w-full text-center lg:text-xl uppercase text-white">COPYRIGHT © MEDIBRIDGE | 2023</p>
+        <p className="regular-14 w-full text-center lg:text-xl uppercase text-white">COPYRIGHT © MEDIBRIDGE | 2024</p>
       </div>
     </footer>
   )

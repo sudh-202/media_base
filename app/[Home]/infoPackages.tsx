@@ -1,8 +1,4 @@
 // pages/index.tsx
-import React from 'react';
-
-
-
 import Tabs from '@/components/tabs';
 import Image from 'next/image';
 
