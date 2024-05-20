@@ -9,6 +9,7 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14 pt-20 pb-6">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           
+          {/* Changes */}
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns) => (
