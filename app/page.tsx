@@ -7,7 +7,7 @@ import InfoPackages from "./[Home]/infoPackages";
 import AboutMedia from "./[Home]/about/aboutMedia";
 import GetReport from "./[Home]/getReport";
 import AddMap from "./[Home]/addMap";
-import Footer from "@/components/Footer";
+import Healthcare from "./[Home]/healthcare";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       <InfoSlider />
       <InfoPackages />
       <AboutMedia />
+      <Healthcare />
       <GetReport />
       <AddMap />
     </>
