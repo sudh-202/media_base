@@ -20,7 +20,6 @@ export default function Home() {
       <AboutMedia />
       <GetReport />
       <AddMap />
-      <Footer />
     </>
   )
 }

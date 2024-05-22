@@ -53,6 +53,7 @@ export const cards = [
   { id: 4, title: 'CBC', icon: '/CBC.png' },
   { id: 5, title: 'Thyroid', icon: '/thyroid.png' },
   { id: 6, title: 'Fertility', icon: '/Firtility.png' },
+
 ];
 
 export const packageImages = {
