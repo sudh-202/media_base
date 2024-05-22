@@ -148,10 +148,20 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: '',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    '/twitter.png',
+    '/facebook.png',
+    '/instagram.png',
   ],
+};
+
+export const ADDRESS = "NH-20, Mangla Asthan, Biharsharif, Nalanda, Bihar 803101";
+export const PHONE = "+91 92042 11809";
+export const WEBSITE = "www.medibridge.in";
+export const EMAIL = "info@medibridge.in";
+
+export const ICONS = {
+  address: "place",
+  phone: "phone",
+  website: "public",
+  email: "email",
 };

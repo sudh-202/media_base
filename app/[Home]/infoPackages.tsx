@@ -40,11 +40,20 @@ const infoPackages: React.FC = () => {
     },
   ];
 
+  const tabStyle = {
+    border: '2px solid #4A90E2',
+    borderRadius: '8px',
+    padding: '16px',
+    backgroundColor: 'red',
+    display: 'flex',
+
+  };
+
   return (
     <div className="flex flex-col items-center justify-center py-[74px] px-18 bg-[#F6F6F6]">
       <div className="text-xl lg:text-4xl font-medium mb-8">Specialized Health Packages</div>
-      <main className="w-full max-w-7xl ">
-        <Tabs tabs={tabs}/>
+      <main className="lg-w-full   ">
+        <Tabs tabs={tabs} style={tabStyle} />
       </main>
     </div>
   );
