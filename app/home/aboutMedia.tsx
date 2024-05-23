@@ -1,5 +1,5 @@
 import ButtonRound from "@/components/ButtonRoud"
-import ImageSlider from "../../../components/ImageSlider"
+import ImageSlider from "../../components/ImageSlider"
 import { carouselImages } from "@/constants"
 
 

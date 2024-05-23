@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Toast from './toast';
+// import Head from 'next/head';
 
 
 export const metadata: Metadata = {
@@ -17,12 +19,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+      {/* <Head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      </Head> */}
+      <Toast>
         <Navbar />
         <main className="relative overflow-hidden">
           {children}
         </main>
         <Footer />
+        </Toast>
       </body>
+      
     </html>
   );
 }

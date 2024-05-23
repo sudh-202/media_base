@@ -1,8 +1,6 @@
 import React from 'react'
-
 import Image from 'next/image'
-import Button from '@/components/Button'
-// import DownloadButtons from '@/components/DownloadButtons'
+
 
 const GetReport = () => {
     return (

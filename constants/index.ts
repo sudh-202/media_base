@@ -5,7 +5,7 @@ export const NAV_LINKS = [
   { href: "/", key: "collectioncentre", label: "Collection centre" },
   { href: "/", key: "diagnosticservices ", label: "Diagnostic Services" },
   { href: "/", key: "career", label: "Career" },
-  { href: "/", key: "contactus", label: "Contact us" },
+  { href: "/contact", key: "contactus", label: "Contact us" },
 ];
 
 // HomePage
@@ -154,6 +154,12 @@ export const SOCIALS = {
   ],
 };
 
+export const MAP ={
+ img: "/maps.png"
+}
+
+
+
 export const ADDRESS = "NH-20, Mangla Asthan, Biharsharif, Nalanda, Bihar 803101";
 export const PHONE = "+91 92042 11809";
 export const WEBSITE = "www.medibridge.in";
@@ -164,4 +170,39 @@ export const ICONS = {
   phone: "phone",
   website: "public",
   email: "email",
+};
+
+
+// Contact Page
+
+export const CONTACT_FORM_FIELDS = {
+  name: {
+    // label: "Name",
+    placeholder: "Full name",
+  },
+  address: {
+    // label: "Address",
+    placeholder: "Address",
+  },
+  phone: {
+    // label: "Phone Number",
+    placeholder: "Phone Number",
+  },
+  message: {
+    // label: "Message",
+    placeholder: "Your message",
+  },
+};
+
+
+export const CONTACT_DETAILS = {
+  address: 'NH-20, Mangla Asthan, Biharsharif. Nalanda, Bihar 80310',
+  phone: '+91 9204211809',
+  website: 'medibridge.in',
+  email: 'info@medibridge.in',
+  social: [
+    { icon: 'twitter', link: 'https://twitter.com/medibridge' },
+    { icon: 'instagram', link: 'https://instagram.com/medibridge' },
+    { icon: 'facebook', link: 'https://facebook.com/medibridge' },
+  ],
 };
