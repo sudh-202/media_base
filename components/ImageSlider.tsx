@@ -50,6 +50,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
         className="lg:w-full"
         width={1920}
         height={1080}
+        loading="lazy" 
         />
     </div>
   );
