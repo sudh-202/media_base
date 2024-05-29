@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Image from "next/image";
 
 interface ImageSliderProps {
   images: { desktop: string; mobile: string }[];
@@ -36,18 +37,20 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative p-4">
       <button className="absolute top-1/2 left-0 transform -translate-y-1/2" onClick={goToPrev}>
         <IoIosArrowBack className="w-6 h-6" />
       </button>
       <button className="absolute top-1/2 right-0 transform -translate-y-1/2" onClick={goToNext}>
         <IoIosArrowForward className="w-6 h-6" />
       </button>
-      <img
+      <Image 
         src={isMobile ? images[currentIndex].mobile : images[currentIndex].desktop}
         alt="slider"
         className="lg:w-full"
-      />
+        width={1920}
+        height={1080}
+        />
     </div>
   );
 };
