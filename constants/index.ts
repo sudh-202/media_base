@@ -109,7 +109,7 @@ export const carouselImages = [
     mobile: "/sliderbanner1.webp",
   },
   {
-    desktop: "/mediabox2.jpg",
+    desktop: "/mediabox2.webp",
     mobile: "/MobileBanner1.webp",
   },
 
