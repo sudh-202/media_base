@@ -22,6 +22,7 @@ export default function RootLayout({
       {/* <Head>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </Head> */}
+      
       <Toast>
         <Navbar />
         <main className="relative overflow-hidden">
