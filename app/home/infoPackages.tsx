@@ -8,8 +8,8 @@ const infoPackages: React.FC = () => {
       label: 'Swasth Bihar Packages',
       content: (
         <div className='flex flex-row'>
-          <Image src="/Swasth Bihar.png" alt='' width={586} height={261}/>
-          <Image src="/Swasth Bihar Wellness 2.png"  alt=''width={586} height={261}/>
+          <Image src="/Swasth Bihar.webp" alt='' width={586} height={261}/>
+          <Image src="/Swasth Bihar Wellness 2.webp"  alt=''width={586} height={261}/>
           
         </div>
       ),
@@ -18,7 +18,7 @@ const infoPackages: React.FC = () => {
       label: 'Full Body Special Packages',
       content: (
         <>
-        <Image src="/Swasth Bihar Wellness 2.png"  alt=''width={586} height={261}/>
+        <Image src="/Swasth Bihar Wellness 2.webp"  alt=''width={586} height={261}/>
         </>
       ),
     },
@@ -26,7 +26,7 @@ const infoPackages: React.FC = () => {
       label: 'Medi Bridge Special Packages',
       content: (
         <>
-        <Image src="/Swasth Bihar Wellness 2.png"  alt=''width={586} height={261}/>
+        <Image src="/Swasth Bihar Wellness 2.webp"  alt=''width={586} height={261}/>
         </>
       ),
     },
@@ -34,7 +34,7 @@ const infoPackages: React.FC = () => {
       label: 'Special Health Packages',
       content: (
         <>
-        <Image src="/Swasth Bihar Wellness 2.png"  alt=''width={586} height={261}/>
+        <Image src="/Swasth Bihar Wellness 2.webp"  alt=''width={586} height={261}/>
         </>
       ),
     },

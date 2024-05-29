@@ -6,7 +6,7 @@ const Healthcare: React.FC = () => {
     <div className="flex flex-col lg:flex-row items-center justify-around bg-[#F6F6F6] px:10 lg:px-36 py-12 rounded-lg shadow-lg">
       <div className="flex-shrink-0 mb-4 lg:mb-0">
         <img
-          src="/healthcareimg.png"
+          src="/healthcareimg.webp"
           alt="Making Healthcare Better"
           className="h-32 w-full  lg:px-10"
         />

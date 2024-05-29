@@ -10,7 +10,7 @@ const GetReport = () => {
             <div className=' flex lg:flex-row flex-col bg-[#C9D851] rounded-xl '>
 
                 <div className="flex flex-1 items-center justify-start">
-                    <Image src="/report.png" alt="report" width={372} height={390} />
+                    <Image src="/report.webp" alt="report" width={372} height={390} />
                 </div>
 
                 <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12 p-16">
@@ -19,14 +19,14 @@ const GetReport = () => {
                     <div className="flex w-full lg:flex-row flex-col gap-3 whitespace-nowrap ">
                         <a href="http://your-destination-url.com">
                             <img
-                                src="/playstore.png"
+                                src="/playstore.webp"
                                 alt="report"
                                 style={{ width: '100%', height: 'auto', maxWidth: '372px', maxHeight: '390px' }}
                             />
                         </a>
                         <a href="http://your-destination-url.com">
                             <img
-                                src="/appstore.png"
+                                src="/appstore.webp"
                                 alt="report"
                                 style={{ width: '100%', height: 'auto', maxWidth: '372px', maxHeight: '390px' }}
                             />

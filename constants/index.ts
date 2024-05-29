@@ -11,25 +11,25 @@ export const NAV_LINKS = [
 // HomePage
 
 export const container_images = [
-  "/con1.png",
-  "/con2.png",
-  "/con3.png",
-  "/con4.png",
+  "/con1.webp",
+  "/con2.webp",
+  "/con3.webp",
+  "/con4.webp",
 
 ];
 export const images = [
   {
-    desktop: "/Banner1.png",
-    mobile: "/MobileBanner1.png",
+    desktop: "/Banner1.webp",
+    mobile: "/MobileBanner1.webp",
   },
   {
-    desktop: "/bg2.png",
-    mobile: "/MobileBanner1.png",
+    desktop: "/bg2.webp",
+    mobile: "/MobileBanner1.webp",
   },
 
 ];
 export const imageData = {
-  imageUrl: "Frame.png"
+  imageUrl: "Frame.webp"
 };
 
 export const textData = {
@@ -47,12 +47,12 @@ export const formData = {
 
 
 export const cards = [
-  { id: 1, title: 'Liver', icon: '/liver.png' },
-  { id: 2, title: 'Lungs', icon: '/Lungs.png' },
-  { id: 3, title: 'Kidney', icon: '/kidney.png' },
-  { id: 4, title: 'CBC', icon: '/CBC.png' },
-  { id: 5, title: 'Thyroid', icon: '/thyroid.png' },
-  { id: 6, title: 'Fertility', icon: '/Firtility.png' },
+  { id: 1, title: 'Liver', icon: '/liver.webp' },
+  { id: 2, title: 'Lungs', icon: '/Lungs.webp' },
+  { id: 3, title: 'Kidney', icon: '/kidney.webp' },
+  { id: 4, title: 'CBC', icon: '/CBC.webp' },
+  { id: 5, title: 'Thyroid', icon: '/thyroid.webp' },
+  { id: 6, title: 'Fertility', icon: '/Firtility.webp' },
 
 ];
 
@@ -71,7 +71,7 @@ export const packageImages = {
 //     discount: '40%',
 //     mrp: '₹2500',
 //     price: '₹1500',
-//     image: '/package1500.png',
+//     image: '/package1500.webp',
 //   },
 //   {
 //     id: 2,
@@ -81,7 +81,7 @@ export const packageImages = {
 //     discount: '45%',
 //     mrp: '₹3320',
 //     price: '₹1826',
-//     image: '/package1826.png',
+//     image: '/package1826.webp',
 //   },
 //   // {
 //   //   id: 3,
@@ -91,7 +91,7 @@ export const packageImages = {
 //   //   discount: '25%',
 //   //   mrp: '₹2320',
 //   //   price: '₹1626',
-//   //   image: '/package1826.png',
+//   //   image: '/package1826.webp',
 //   // },
 // ];
 
@@ -105,12 +105,12 @@ export const packageImages = {
 export const carouselImages = [
 
   {
-    desktop: "/mediabox.png",
-    mobile: "/sliderbanner1.png",
+    desktop: "/mediabox.webp",
+    mobile: "/sliderbanner1.webp",
   },
   {
     desktop: "/mediabox2.jpg",
-    mobile: "/MobileBanner1.png",
+    mobile: "/MobileBanner1.webp",
   },
 
 ];
@@ -148,14 +148,14 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: '',
   links: [
-    '/twitter.png',
-    '/facebook.png',
-    '/instagram.png',
+    '/twitter.webp',
+    '/facebook.webp',
+    '/instagram.webp',
   ],
 };
 
 export const MAP ={
- img: "/maps.png"
+ img: "/maps.webp"
 }
 
 

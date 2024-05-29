@@ -29,7 +29,7 @@ const GoogleMapSection: React.FC = () => {
           </GoogleMap>
         </LoadScript>
         <img
-          src="/maps.png"
+          src="/maps.webp"
           alt="Overlay"
           className="absolute inset-0 w-full h-full object-cover "
         />

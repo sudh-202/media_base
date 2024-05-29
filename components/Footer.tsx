@@ -30,14 +30,14 @@ const Footer = () => {
                 <div className="flex w-full flex-row lg:flex-col gap-3 whitespace-nowrap ">
                   <a href="http://your-destination-url.com">
                     <img
-                      src="/footgoogle.png"
+                      src="/footgoogle.webp"
                       alt="report"
                       style={{ width: '100%', height: 'auto', maxWidth: '156px', maxHeight: '47px' }}
                     />
                   </a>
                   <a href="http://your-destination-url.com">
                     <img
-                      src="/footapp.png"
+                      src="/footapp.webp"
                       alt="report"
                       style={{ width: '100%', height: 'auto', maxWidth: '156px', maxHeight: '47px' }}
                     />
@@ -74,7 +74,7 @@ const Footer = () => {
 
             <div className="flex flex-col gap-0">
               <Link href="/" className="mb-10">
-                <Image src="/footlogo.png" alt="logo" width={123} height={150} />
+                <Image src="/footlogo.webp" alt="logo" width={123} height={150} />
               </Link>
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
