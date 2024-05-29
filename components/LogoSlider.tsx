@@ -98,6 +98,8 @@ import Image from 'next/image';
                     src={card.icon}
                      alt={card.title}
                      className="w-34 h-24 mb-2 object-contain"
+                      width={136}
+                      height={96}
                   />
                   <p className="text-center">{card.title}</p>
                 </div>
