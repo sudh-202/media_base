@@ -18,18 +18,12 @@ const GetReport = () => {
                     <p className="lg:w-[70%] regular-16 lg:text-2xl text-black">हमारे मोबाइल एप्लिकेशन पर अपनी रिपोर्ट प्राप्त करने की सुविधा</p>
                     <div className="flex w-full lg:flex-row flex-col gap-3 whitespace-nowrap ">
                         <a href="http://your-destination-url.com">
-                            <img
-                                src="/playstore.webp"
-                                alt="report"
-                                style={{ width: '100%', height: 'auto', maxWidth: '372px', maxHeight: '390px' }}
-                            />
+                            
+                            <Image src="/playstore.webp" alt="report" width={172} height={390} style={{}} />
                         </a>
                         <a href="http://your-destination-url.com">
-                            <img
-                                src="/appstore.webp"
-                                alt="report"
-                                style={{ width: '100%', height: 'auto', maxWidth: '372px', maxHeight: '390px' }}
-                            />
+                           
+                            <Image src="/appstore.webp" alt="report" width={172} height={390} />
                         </a>
 
                     </div>
