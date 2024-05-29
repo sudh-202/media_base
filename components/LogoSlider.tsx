@@ -2,6 +2,7 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import { cards } from '@/constants/index';
+import Image from 'next/image';
 
 
 
@@ -93,7 +94,11 @@ import { cards } from '@/constants/index';
             <div ref={sliderRef} className="flex gap-2 transition-transform duration-300 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100 / itemsToShow}%)` }}>
               {cards.concat(cards).map((card, index) => (
                 <div key={index} className="flex-shrink-0 w-32 h-60 bg-gray-100 rounded-lg flex flex-col items-center justify-center" style={{ width: `${96.5 / itemsToShow}%` }}>
-                  <img src={card.icon} alt={card.title} className="w-34 h-24 mb-2 object-contain"style={{ width: '70%', height: '80%' }} />
+                  <Image  
+                    src={card.icon}
+                     alt={card.title}
+                     className="w-34 h-24 mb-2 object-contain"
+                  />
                   <p className="text-center">{card.title}</p>
                 </div>
               ))}
