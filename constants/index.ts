@@ -4,7 +4,7 @@ export const NAV_LINKS = [
   { href: "/", key: "aboutus", label: "About us" },
   { href: "/", key: "collectioncentre", label: "Collection centre" },
   { href: "/", key: "diagnosticservices ", label: "Diagnostic Services" },
-  { href: "/", key: "career", label: "Career" },
+  { href: "/careers", key: "career", label: "Career" },
   { href: "/contact", key: "contactus", label: "Contact us" },
 ];
 
@@ -258,3 +258,58 @@ export const CONTACT_DETAILS = {
     { icon: 'facebook', link: 'https://facebook.com/medibridge' },
   ],
 };
+
+// Careers Page
+
+export const jobs = [
+  {
+    title: 'Lab Technicians',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+    location: 'Bihar Shareef',
+    postedDate: '10-09-2022',
+  },
+  {
+    title: 'Receptionist',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+    location: 'Bihar Shareef',
+    postedDate: '10-09-2022',
+  },
+  {
+    title: 'Microbiologist',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+    location: 'Bihar Shareef',
+    postedDate: '10-09-2022',
+  },
+];
+
+export const countdata = [
+  { count: "300+", text: "Test menu" },
+  { count: "150+", text: "Doctors" },
+  { count: "450+", text: "Well trained Lab Technician" },
+  { count: "450+", text: "Well trained Lab Technician" },
+];
+
+export const countimageSrc = "/count1.webp";
+
+export const benefitsData = [
+  {
+    id: 1,
+    title: 'Annual Leaves',
+    icon: '/bene1.webp', 
+  },
+  {
+    id: 2,
+    title: 'Skill Development',
+    icon: '/bene2.webp',
+  },
+  {
+    id: 3,
+    title: 'Health Insurance',
+    icon: '/bene3.webp',
+  },
+  {
+    id: 4,
+    title: 'Yearly Preventive Health package for your family.',
+    icon: '/bene4.webp',
+  },
+];
