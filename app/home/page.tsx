@@ -8,6 +8,7 @@ import GetReport from "./getReport";
 import AddMap from "./addMap";
 import Healthcare from "./healthcare";
 import ImageSlider from "@/components/ImageSlider";
+import Testimonials from "./testimonials";
 import { images } from "@/constants";
 
 export default function HomePage() {
@@ -20,6 +21,7 @@ export default function HomePage() {
       <InfoPackages />
       <AboutMedia />
       <Healthcare />
+      <Testimonials />
       <GetReport />
       <AddMap />
     </>

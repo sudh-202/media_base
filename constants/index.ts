@@ -102,6 +102,57 @@ export const packageImages = {
 //   { id: 4, tabId: 1, name: 'Special Health Packages' },
 // ];
 
+export const testimonials = [
+  {
+    text: "I was referred by my doctor to Medibridge Diagnostic Center for some tests and I was very happy with the services I received. The employee politely asked to wait for a few moments. The results came back quickly and the doctor was able to provide me with the answers I needed to move forward with my treatment. Thanks, Medibridge!",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "Medi Bridge diagnostic is the advanced level diagnostic center in the District. We are offering to offer a wide variety of test menus. We wish to diagnose all the possible diseases inside the human body. We have incorporated almost 95% of automation in our state-of-art healthcare equipment.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "I can't say enough good things about Medibridge Diagnostic Center but the staff was friendly and the doctors were knowledgeable. I was impressed with the efficiency of the center and I received my results very quickly. I highly recommend visiting Medibridge to anyone in need of diagnostic testing.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "Recently, I got some medical tests done for my health condition and I am very glad that I chose this Medibridge Diagnostic Center. The tests were done very smoothly. It takes almost 3 to 4 days at other medical test centers but here the results were provided within few hours. I would recommend this to anyone looking for a reliable and trustworthy place to get medical tests done. I would highly recommend Medibridge Diagnostic Center.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "Recently, I got some medical tests done for my health condition and I am very glad that I chose this Medibridge Diagnostic Center. The tests were done very smoothly. It takes almost 3 to 4 days at other medical test centers but here the results were provided within few hours. I would recommend this to anyone looking for a reliable and trustworthy place to get medical tests done. I would highly recommend Medibridge Diagnostic Center.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "Recently, I got some medical tests done for my health condition and I am very glad that I chose this Medibridge Diagnostic Center. The tests were done very smoothly. It takes almost 3 to 4 days at other medical test centers but here the results were provided within few hours. I would recommend this to anyone looking for a reliable and trustworthy place to get medical tests done. I would highly recommend Medibridge Diagnostic Center.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "Recently, I got some medical tests done for my health condition and I am very glad that I chose this Medibridge Diagnostic Center. The tests were done very smoothly. It takes almost 3 to 4 days at other medical test centers but here the results were provided within few hours. I would recommend this to anyone looking for a reliable and trustworthy place to get medical tests done. I would highly recommend Medibridge Diagnostic Center.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+  {
+    text: "Recently, I got some medical tests done for my health condition and I am very glad that I chose this Medibridge Diagnostic Center. The tests were done very smoothly. It takes almost 3 to 4 days at other medical test centers but here the results were provided within few hours. I would recommend this to anyone looking for a reliable and trustworthy place to get medical tests done. I would highly recommend Medibridge Diagnostic Center.",
+    name: "Hamid Raza",
+    location: "Patna, Bihar - 04",
+    image: "/Masklogo.webp",
+  },
+];
+
 export const carouselImages = [
 
   {
@@ -114,6 +165,7 @@ export const carouselImages = [
   },
 
 ];
+
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
