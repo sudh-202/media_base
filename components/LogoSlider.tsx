@@ -141,7 +141,6 @@ import Image from 'next/image';
         {cards.map((card, index) => (
           <React.Fragment key={card.id}>
             <div className="   w-24 h-28 bg-gray-100 rounded-lg flex flex-col items-center justify-center m-2">
-              
               <Image  
                     src={card.icon}
                      alt={card.title}

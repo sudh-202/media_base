@@ -3,6 +3,7 @@
 // components/GoogleMapSection.tsx
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import Image from 'next/image';
 
 const containerStyle = {
   width: '100%',
@@ -19,7 +20,14 @@ const GoogleMapSection: React.FC = () => {
     <div className="relative w-full">
       {/* <h2 className="text-2xl font-bold mb-4">Our Location</h2> */}
       <div className="relative">
-        <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
+        <Image 
+          src="/maps.webp"
+          alt="Map"
+          // className="absolute inset-0 w-full h-full object-cover "
+          width={1920}
+          height={1080}
+/>
+        {/* <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
@@ -27,12 +35,12 @@ const GoogleMapSection: React.FC = () => {
           >
             <Marker position={center} />
           </GoogleMap>
-        </LoadScript>
-        <img
+        </LoadScript> */}
+        {/* <img
           src="/maps.webp"
           alt="Overlay"
           className="absolute inset-0 w-full h-full object-cover "
-        />
+        /> */}
       </div>
     </div>
   );
