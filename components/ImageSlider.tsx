@@ -47,10 +47,10 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
       <Image 
         src={isMobile ? images[currentIndex].mobile : images[currentIndex].desktop}
         alt="slider"
-        className="lg:w-full"
         width={1920}
         height={1080}
-        loading="lazy" 
+        priority // This attribute ensures the image is loaded with high priority
+        className="lg:w-full" 
         />
     </div>
   );
