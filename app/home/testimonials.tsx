@@ -12,11 +12,11 @@ const Testimonials: React.FC = () => {
         setCurrentSlide(index);
     };
     return (
-        <div className="lg:w-full lg:h-full bg-[#52B2AD] flex lg:justify-center
-            lg:items-center  lg:p-12 lg:flex-col lg:my-24">
-            <h2 className="lg:text-4xl text-white">What Our Customers Say</h2>
-            <div className="flex lg:flex-row lg:gap-24 items-center ">
-                <div className=" lg:w-1/4 ">
+        <div className="w-full lg:h-full bg-[#52B2AD] flex lg:justify-center
+            lg:items-center  p-12 lg:flex-col flex-row lg:my-24">
+            <h2 className="lg:text-4xl text-2xl text-white lg:block hidden">What Our Customers Say</h2>
+            <div className="flex lg:flex-row  lg:gap-24 items-center ">
+                <div className=" lg:w-1/4 lg:block hidden ">
                     <Image
                         src={GoogleImage}
                         alt="google image"
@@ -24,7 +24,8 @@ const Testimonials: React.FC = () => {
                         height={300}
                     />
                 </div>
-                <div className="container mx-auto py-8">
+                <div className="container lg:mx-auto  lg:py-8 ">
+                <h2 className="text-3xl text-white lg:hidden mb-8">What Our <br></br>Customers Say</h2>
                     <div className="flex flex-wrap justify-center gap-2 ">
                         {testimonials.slice(currentSlide, currentSlide + 4).map((testimonial, index) => (
                             <div key={index} className="bg-white p-6 rounded-lg shadow-md w-full md:w-1/2 lg:w-1/3 lg:flex-row flex-grow">
@@ -48,7 +49,7 @@ const Testimonials: React.FC = () => {
                         {Array(Math.ceil(testimonials.length / 4)).fill(0).map((_, i) => (
                             <span
                                 key={i}
-                                className={`h-3 w-3 rounded-full mx-2 cursor-pointer ${currentSlide === i * 4 ? 'bg-green-500' : 'bg-gray-400'}`}
+                                className={`lg:h-4 lg:w-4 h-3 w-3 rounded-full border-2 border-[#C9D851] mx-2 cursor-pointer ${currentSlide === i * 4 ? 'bg-green-500' : 'bg-gray-400'}`}
                                 onClick={() => handleDotClick(i * 4)}
                             ></span>
                         ))}
