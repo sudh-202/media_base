@@ -29,18 +29,10 @@ const Footer = () => {
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 <div className="flex w-full flex-row lg:flex-col gap-3 whitespace-nowrap ">
                   <a href="http://your-destination-url.com">
-                    <img
-                      src="/footgoogle.webp"
-                      alt="report"
-                      style={{ width: '100%', height: 'auto', maxWidth: '156px', maxHeight: '47px' }}
-                    />
+                    <Image src="/footgoogle.webp" alt="report" width={172} height={390}  />
                   </a>
                   <a href="http://your-destination-url.com">
-                    <img
-                      src="/footapp.webp"
-                      alt="report"
-                      style={{ width: '100%', height: 'auto', maxWidth: '156px', maxHeight: '47px' }}
-                    />
+                    <Image src="/footapp.webp" alt="report" width={172} height={390} />
                   </a>
 
                 </div>
