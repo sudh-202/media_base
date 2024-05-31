@@ -8,7 +8,7 @@ const Counter: React.FC = () => {
 
         <>
             {countdata.map((item, index) => (
-                <div key={index} className="flex lg:flex-row lg:gap-3 items-center m-4">
+                <div key={index} className="flex lg:flex-row gap-3  items-center m-4">
                     <div className="w-16 h-16 relative">
                         <Image src={countimageSrc} alt="icon" layout="fill" objectFit="contain" />
                     </div>
