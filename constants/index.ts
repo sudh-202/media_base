@@ -22,10 +22,7 @@ export const images = [
     desktop: "/Banner1.webp",
     mobile: "/MobileBanner1.webp",
   },
-  {
-    // desktop: "/bg2.webp",
-    // mobile: "/MobileBanner1.webp",
-  },
+
 
 ];
 export const imageData = {
@@ -62,45 +59,6 @@ export const packageImages = {
   // Add more image URLs as needed
 };
 
-// export const packages = [
-//   {
-//     id: 1,
-//     tabId: 1, 
-//     title: 'Swasth Bihar Wellness 1',
-//     tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Liver Function Test', 'Kidney Function Test'],
-//     discount: '40%',
-//     mrp: '₹2500',
-//     price: '₹1500',
-//     image: '/package1500.webp',
-//   },
-//   {
-//     id: 2,
-//     tabId: 2, 
-//     title: 'Swasth Bihar Wellness 2',
-//     tests: ['CBC', 'ESR', 'Sugar Fasting', 'Lipid Profile Screen', 'Thyroid Profile Total', 'Liver Function Test', 'HbA1c (HPLC)','Kidney Function Test' ],
-//     discount: '45%',
-//     mrp: '₹3320',
-//     price: '₹1826',
-//     image: '/package1826.webp',
-//   },
-//   // {
-//   //   id: 3,
-//   //   tabId: 3, 
-//   //   title: 'Test',
-//   //   tests: ['CBC',  'Thyroid Profile Total', 'Liver Function Test', 'HbA1c (HPLC)','Kidney Function Test' ],
-//   //   discount: '25%',
-//   //   mrp: '₹2320',
-//   //   price: '₹1626',
-//   //   image: '/package1826.webp',
-//   // },
-// ];
-
-// export const tabs = [
-//   { id: 1, tabId: 1,  name: 'Swasth Bihar Packages' },
-//   { id: 2, tabId: 1,  name: 'Full Body Special Packages' },
-//   { id: 3, tabId: 1, name: 'Medi Bridge Special Packages' },
-//   { id: 4, tabId: 1, name: 'Special Health Packages' },
-// ];
 
 export const testimonials = [
   {
@@ -158,10 +116,6 @@ export const carouselImages = [
   {
     desktop: "/mediabox.webp",
     mobile: "/sliderbanner1.webp",
-  },
-  {
-    desktop: "/mediabox2.webp",
-    mobile: "/MobileBanner1.webp",
   },
 
 ];
