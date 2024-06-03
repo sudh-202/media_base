@@ -23,8 +23,8 @@ export const images = [
     mobile: "/MobileBanner1.webp",
   },
   {
-    desktop: "/bg2.webp",
-    mobile: "/MobileBanner1.webp",
+    // desktop: "/bg2.webp",
+    // mobile: "/MobileBanner1.webp",
   },
 
 ];
