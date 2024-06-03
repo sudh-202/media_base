@@ -212,7 +212,7 @@ export const MAP ={
 
 
 
-export const ADDRESS = "NH-20, Mangla Asthan, Biharsharif, Nalanda, Bihar 803101";
+export const ADDRESS = "Medi Bridge, N.H - 31, Bihar Sharif, Nalanda, Bihar, 803101";
 export const PHONE = "+91 92042 11809";
 export const WEBSITE = "www.medibridge.in";
 export const EMAIL = "info@medibridge.in";
@@ -248,7 +248,7 @@ export const CONTACT_FORM_FIELDS = {
 
 
 export const CONTACT_DETAILS = {
-  address: 'NH-20, Mangla Asthan, Biharsharif. Nalanda, Bihar 80310',
+  address: 'Medi Bridge, N.H - 31, Bihar Sharif, Nalanda, Bihar, 803101',
   phone: '+91 9204211809',
   website: 'medibridge.in',
   email: 'info@medibridge.in',
