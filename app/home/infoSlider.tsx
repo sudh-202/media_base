@@ -8,6 +8,7 @@ const infoSlider = () => {
         <LogoSlider />
         </main>
     </div>
+    
   )
 }
 

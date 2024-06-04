@@ -44,14 +44,14 @@ export const formData = {
 
 
 export const cards = [
-  { id: 1, title: 'Liver', icon: '/liver.webp' },
-  { id: 2, title: 'Lungs', icon: '/Lungs.webp' },
-  { id: 3, title: 'Kidney', icon: '/kidney.webp' },
-  { id: 4, title: 'CBC', icon: '/CBC.webp' },
-  { id: 5, title: 'Thyroid', icon: '/thyroid.webp' },
-  { id: 6, title: 'Fertility', icon: '/Firtility.webp' },
-
+  { id: 1, title: 'Liver', icon: '/liver.webp', link: '/liver' },
+  { id: 2, title: 'Lungs', icon: '/Lungs.webp', link: '/lungs' },
+  { id: 3, title: 'Kidney', icon: '/kidney.webp', link: '/kidney' },
+  { id: 4, title: 'CBC', icon: '/CBC.webp', link: '/cbc' },
+  { id: 5, title: 'Thyroid', icon: '/thyroid.webp', link: '/thyroid' },
+  { id: 6, title: 'Fertility', icon: '/Firtility.webp', link: '/fertility' },
 ];
+
 
 export const packageImages = {
   swasthBiharWellness1: '/images/swasth_bihar_wellness1.jpg',

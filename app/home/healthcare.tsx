@@ -1,14 +1,17 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Healthcare: React.FC = () => {
   return (
     <main className='flex items-center justify-center lg:px-40 px-8 py-28'>
     <div className="flex flex-col lg:flex-row items-center justify-around bg-[#F6F6F6] px:10 lg:px-36 py-12 rounded-lg shadow-lg">
       <div className="flex-shrink-0 mb-4 lg:mb-0">
-        <img
+        <Image
           src="/healthcareimg.webp"
           alt="Making Healthcare Better"
           className="h-32 w-full  lg:px-10"
+          width={400}
+          height={400}
         />
       </div>
       <div className="flex-grow lg:ml-8 text-center lg:text-left">
