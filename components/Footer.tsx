@@ -43,7 +43,7 @@ const Footer = () => {
                 <div className="flex items-center mb-4">
                   <span className="material-icons rounded-full bg-[#C9D851] mr-3 p-1">{ICONS.address}</span>
                   <div>
-                    <p>{ADDRESS},</p>
+                    <p className='text-sm'>{ADDRESS},</p>
                    
                    
                     
