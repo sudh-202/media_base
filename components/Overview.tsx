@@ -1,8 +1,8 @@
 'use client'
 import React, { useState } from "react";
 import { contentData } from "../constants";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 interface SectionProps {
   title: string;
@@ -20,7 +20,7 @@ const Section: React.FC<SectionProps> = ({ title, content }) => {
       >
         <div className="flex justify-between items-center p-4">
           <span className="text-[#52B2AD] text-2xl">{title}</span>
-          <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} />
+          {/* <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} /> */}
         </div>
       </button>
       {isOpen && (
