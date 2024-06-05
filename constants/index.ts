@@ -267,3 +267,107 @@ export const benefitsData = [
     icon: '/bene4.webp',
   },
 ];
+
+// category page
+
+export const contentData = {
+  overview: {
+    title: "Overview",
+    content: `
+    <p>In India, 1.36 Lakhs adults die due to chronic kidney disease, which is more than AIDS.</p>
+    <p>The kidneys are a pair of bean-shaped organs located at the bottom of the rib cage and are mainly responsible for:</p>
+    <ul>
+      <li>- Filtering waste products, excess water, and other impurities out of the blood.</li>
+      <li>- Regulating pH, salt, and potassium levels in the body.</li>
+      <li>- Regulating blood pressure and the production of red blood cells.</li>
+      <li>- Activating a form of vitamin D that enhances calcium absorption.</li>
+    </ul>
+    `,
+  },
+  symptoms: {
+    title: "Symptoms",
+    content: `
+      In India, 1.36 Lakhs adults die due to chronic kidney disease, which is more than AIDS. 
+      The kidneys are a pair of bean-shaped organs located at the bottom of the rib cage and are mainly responsible for:
+      - Filtering waste products, excess water, and other impurities out of the blood.
+      - Regulating pH, salt, and potassium levels in the body.
+      - Regulating blood pressure and the production of red blood cells.
+      - Activating a form of vitamin D that enhances calcium absorption.
+    `,
+  },
+  KidneyStone: {
+    title: "Are you at risk of Kidney Disease?",
+    content: `
+      In India, 1.36 Lakhs adults die due to chronic kidney disease, which is more than AIDS. 
+      The kidneys are a pair of bean-shaped organs located at the bottom of the rib cage and are mainly responsible for:
+      - Filtering waste products, excess water, and other impurities out of the blood.
+      - Regulating pH, salt, and potassium levels in the body.
+      - Regulating blood pressure and the production of red blood cells.
+      - Activating a form of vitamin D that enhances calcium absorption.
+    `,
+  },
+  TypesOfDisease: {
+    title: "Types of Kidney Disease",
+    content: `
+      In India, 1.36 Lakhs adults die due to chronic kidney disease, which is more than AIDS. 
+      The kidneys are a pair of bean-shaped organs located at the bottom of the rib cage and are mainly responsible for:
+      - Filtering waste products, excess water, and other impurities out of the blood.
+      - Regulating pH, salt, and potassium levels in the body.
+      - Regulating blood pressure and the production of red blood cells.
+      - Activating a form of vitamin D that enhances calcium absorption.
+    `,
+  },
+  DiagnosisTests: {
+    title: "Diagnosis and Tests",
+    content: `
+      In India, 1.36 Lakhs adults die due to chronic kidney disease, which is more than AIDS. 
+      The kidneys are a pair of bean-shaped organs located at the bottom of the rib cage and are mainly responsible for:
+      - Filtering waste products, excess water, and other impurities out of the blood.
+      - Regulating pH, salt, and potassium levels in the body.
+      - Regulating blood pressure and the production of red blood cells.
+      - Activating a form of vitamin D that enhances calcium absorption.
+    `,
+  },
+  Prevention: {
+    title: "Prevention",
+    content: `
+      In India, 1.36 Lakhs adults die due to chronic kidney disease, which is more than AIDS. 
+      The kidneys are a pair of bean-shaped organs located at the bottom of the rib cage and are mainly responsible for:
+      - Filtering waste products, excess water, and other impurities out of the blood.
+      - Regulating pH, salt, and potassium levels in the body.
+      - Regulating blood pressure and the production of red blood cells.
+      - Activating a form of vitamin D that enhances calcium absorption.
+    `,
+  },
+};
+
+export const infoData = {
+  liverFunctionTest: {
+    title: "Liver function Test",
+    features: [
+      "Lorem ipsum dolor sit",
+      "Duis autem vel eum iriure",
+      "Ut wisi enim ad minim",
+    ],
+    price: "₹700/-",
+    buttonText: "BOOK NOW"
+  },
+  headline: {
+    title: "Headline",
+    items: [
+      "Lorem ipsum dolor sit",
+      "Duis autem vel eum iriure",
+      "Ut wisi enim ad minim",
+      "Lorem ipsum dolor sit",
+      "Duis autem vel eum iriure",
+      "Ut wisi enim ad minim",
+      "Lorem ipsum dolor sit",
+      "Duis autem vel eum iriure",
+      "Ut wisi enim ad minim",
+      "Lorem ipsum dolor sit",
+      "Duis autem vel eum iriure",
+      "Ut wisi enim ad minim",
+    ]
+  },
+}
+
