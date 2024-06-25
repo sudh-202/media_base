@@ -10,16 +10,19 @@ import Healthcare from "./healthcare";
 import ImageSlider from "@/components/ImageSlider";
 import Testimonials from "./testimonials";
 import { images } from "@/constants";
+import Recommended from "./Recommended";
 
 export default function HomePage() {
   return (
     <>
       <ImageSlider images={images}/>
-      <ImageInfo/>
-      <InfoForm/>
+      {/* <ImageInfo/> */}
+      {/* <InfoForm/> */}
       <InfoSlider />
       <InfoPackages />
-      <AboutMedia />
+      {/* <AboutMedia /> */}
+      <Recommended />
+      <ImageInfo/>
       <Healthcare />
       <Testimonials />
       <GetReport />

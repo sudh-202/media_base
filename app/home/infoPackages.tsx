@@ -8,8 +8,8 @@ const infoPackages: React.FC = () => {
       label: 'Swasth Bihar Packages',
       content: (
         <div className='flex flex-row'>
-          <Image src="/Swasth Bihar.webp" alt='' width={586} height={261}/>
-          <Image src="/Swasth Bihar Wellness 2.webp"  alt=''width={586} height={261}/>
+          <Image src="/swasth_bihar_wellness.webp" alt='' width={586} height={100} className='rounded-lg w-full'/>
+          {/* <Image src="/Swasth Bihar Wellness 2.webp"  alt=''width={586} height={261}/> */}
           
         </div>
       ),
@@ -50,7 +50,7 @@ const infoPackages: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center py-[74px] px-18 bg-[#F6F6F6]">
+    <div className="flex flex-col items-center justify-center py-[74px] px-18 bg-[#F5F6E5]">
       <div className="text-xl lg:text-4xl font-medium mb-8">Specialized Health Packages</div>
       <main className="lg-w-full   ">
         <Tabs tabs={tabs} style={tabStyle} />

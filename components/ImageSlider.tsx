@@ -37,7 +37,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative p-4">
+    <div className="relative ">
       <button className="absolute top-1/2 left-0 transform -translate-y-1/2" onClick={goToPrev}>
         <IoIosArrowBack className="w-6 h-6" />
       </button>

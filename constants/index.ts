@@ -19,10 +19,9 @@ export const container_images = [
 ];
 export const images = [
   {
-    desktop: "/Banner1.webp",
+    desktop: "/Family banner1.webp",
     mobile: "/MobileBanner1.webp",
   },
-
 
 ];
 export const imageData = {
@@ -54,7 +53,7 @@ export const cards = [
 
 
 export const packageImages = {
-  swasthBiharWellness1: '/images/swasth_bihar_wellness1.jpg',
+  swasthBiharWellness1: '/images/swasth_bihar_wellness.webp',
   swasthBiharWellness2: '/images/swasth_bihar_wellness2.jpg',
   // Add more image URLs as needed
 };
@@ -371,3 +370,28 @@ export const infoData = {
   },
 }
 
+
+
+export const ageGroups = [
+  {
+    id: 1,
+    src: '/Boy 1.webp',
+    alt: 'Under 25 Years',
+    title: 'Under',
+    highlight: '25 Years',
+  },
+  {
+    id: 2,
+    src: '/Men 1.webp',
+    alt: '20-50 Years',
+    title: '20-50',
+    highlight: 'Years',
+  },
+  {
+    id: 3,
+    src: '/Old man 1.webp',
+    alt: 'Above 50 Years',
+    title: 'Above',
+    highlight: '50 Years',
+  },
+];

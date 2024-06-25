@@ -5,7 +5,7 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween  px-16 relative z-30 py-5 bg-[#F5F6E5]">
       <div className="flex justify-start">
         <Link href="/">
           <Image src="/logo.svg" alt="logo" width={80.54} height={97.69} />
