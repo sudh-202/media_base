@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from "react";
+import { useState } from "react";
 import { contentData } from "../constants";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";

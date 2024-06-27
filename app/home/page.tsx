@@ -11,18 +11,25 @@ import ImageSlider from "@/components/ImageSlider";
 import Testimonials from "./testimonials";
 import { images } from "@/constants";
 import Recommended from "./Recommended";
+import ImageInfoV1 from "./ImageInfoV1";
+import OurServices from "./ourServices";
+import InfoBanner from "@/components/InfoBanner";
+import SafetyStepsSection from "./safetyStepsData";
 
 export default function HomePage() {
   return (
     <>
-      <ImageSlider images={images}/>
+      <ImageSlider images={images} />
       {/* <ImageInfo/> */}
       {/* <InfoForm/> */}
       <InfoSlider />
       <InfoPackages />
       {/* <AboutMedia /> */}
       <Recommended />
-      <ImageInfo/>
+      <ImageInfoV1 />
+      <OurServices />
+      <SafetyStepsSection />
+      <InfoBanner />
       <Healthcare />
       <Testimonials />
       <GetReport />

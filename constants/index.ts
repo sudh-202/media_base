@@ -1,3 +1,4 @@
+import ourServices from '../app/home/ourServices';
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
@@ -372,7 +373,7 @@ export const infoData = {
 
 
 
-export const ageGroups = [
+export const ageGroupsM = [
   {
     id: 1,
     src: '/Boy 1.webp',
@@ -393,5 +394,92 @@ export const ageGroups = [
     alt: 'Above 50 Years',
     title: 'Above',
     highlight: '50 Years',
+  },
+];
+
+
+export const ageGroupsF = [
+  {
+    id: 1,
+    src: '/Under 25 Years.webp',
+    alt: 'Under 25 Years',
+    title: 'Under',
+    highlight: '25 Years',
+  },
+  {
+    id: 2,
+    src: '/20 - 50.webp',
+    alt: '20-50 Years',
+    title: '20-50',
+    highlight: 'Years',
+  },
+  {
+    id: 3,
+    src: '/Above 50 Years.webp',
+    alt: 'Above 50 Years',
+    title: 'Above',
+    highlight: '50 Years',
+  },
+];
+
+export const stepsData = [
+  {
+    image: "/stepicon1.webp",
+    text: "You need a pathology test / Choose health test and package",
+  },
+  {
+    image: "/stepicon2.webp",
+    text: "Book your free Home test",
+  },
+  {
+    image: "/stepicon3.webp",
+    text: "Our phlebotomist and pricking blood sample",
+  },
+  {
+    image: "/stepicon4.webp",
+    text: "Get your results on your phone same day",
+  },
+];
+
+export const OurServices = [
+  {
+    id: 1,
+    src: '/Pathology.webp',
+    alt: 'Pathology',
+    title: 'Pathology',
+    // highlight: '',
+  },
+  {
+    id: 2,
+    src: '/Pathology 1.webp',
+    alt: 'Pathology 1',
+    title: 'Pathology 1',
+    // highlight: 'Years',
+  },
+  {
+    id: 3,
+    src: '/Ultrasound.webp',
+    alt: 'Ultrasound',
+    title: 'Ultrasound',
+    // highlight: '50 Years',
+  },
+];
+
+export const safetyStepsData = [
+  {
+    image: "/Temp.webp",
+    title: "Temperature Checks",
+  },
+  {
+    image: "/handwash.webp",
+    title: "Hand Sanitization",
+  },
+  {
+    image: "/suit.webp",
+    title: "Use of Masks & Gloves",
+  },
+  {
+    image: "/Distance.webp",
+    title: "Social Distancing",
   },
 ];

@@ -1,6 +1,6 @@
 import ButtonRound from "@/components/ButtonRoud"
 import ImageSlider from "../../components/ImageSlider"
-import { carouselImages, ageGroups } from "@/constants"
+import { carouselImages, ageGroupsM, ageGroupsF } from "@/constants"
 import Image from "next/image"
 
 
@@ -16,7 +16,7 @@ const aboutMedia = () => {
                 </p>
                 <div className="container mx-auto py-10 px-4 border-black border-b-2">
                     <div className="relative flex flex-wrap justify-center gap-16 pb-10">
-                        {ageGroups.map((group, index) => (
+                        {ageGroupsM.map((group, index) => (
                             <div
                                 key={group.id}
                                 className="relative w-80 rounded-lg overflow-hidden shadow-lg bg-[#FEFFFE]"
@@ -46,7 +46,7 @@ const aboutMedia = () => {
                 </p>
                 <div className="container mx-auto py-10 px-4 border-black ">
                     <div className="relative flex flex-wrap justify-center gap-16 ">
-                        {ageGroups.map((group, index) => (
+                        {ageGroupsF.map((group, index) => (
                             <div
                                 key={group.id}
                                 className="relative w-80 rounded-lg overflow-hidden shadow-lg bg-[#FEFFFE]"
