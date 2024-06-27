@@ -1,4 +1,5 @@
 import ourServices from '../app/home/ourServices';
+import ImageSlider from '../components/ImageSlider 1';
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
@@ -23,6 +24,7 @@ export const images = [
     desktop: "/Family banner1.webp",
     mobile: "/MobileBanner1.webp",
   },
+  
 
 ];
 export const imageData = {
@@ -483,3 +485,10 @@ export const safetyStepsData = [
     title: "Social Distancing",
   },
 ];
+
+export const ImagesSlider = [
+  {
+    desktop: "/imageslider1.webp",
+    mobile: "/MobileBanner1.webp",
+  },
+]

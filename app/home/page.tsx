@@ -15,6 +15,7 @@ import ImageInfoV1 from "./ImageInfoV1";
 import OurServices from "./ourServices";
 import InfoBanner from "@/components/InfoBanner";
 import SafetyStepsSection from "./safetyStepsData";
+import ImageSliderV1 from "@/components/ImageSlider 1"
 
 export default function HomePage() {
   return (
@@ -30,6 +31,7 @@ export default function HomePage() {
       <OurServices />
       <SafetyStepsSection />
       <InfoBanner />
+      <ImageSliderV1  images={images} />
       <Healthcare />
       <Testimonials />
       <GetReport />
