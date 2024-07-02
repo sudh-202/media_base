@@ -488,7 +488,30 @@ export const safetyStepsData = [
 
 export const ImagesSlider = [
   {
-    desktop: "/imageslider1.webp",
+    desktop: "/slider1.webp",
     mobile: "/MobileBanner1.webp",
   },
 ]
+
+export const galleryimages = [
+  {
+    src: '/gallery1.webp',
+    alt: 'Health camp - Nawada',
+  },
+  {
+    src: '/gallery2.webp',
+    alt: 'Doctor consultation',
+  },
+  {
+    src: '/gallery3.webp',
+    alt: 'Community health education',
+  },
+  {
+    src: '/gallery4.webp',
+    alt: 'Child healthcare',
+  },
+  {
+    src: '/gallery5.webp',
+    alt: 'Child healthcare',
+  },
+];

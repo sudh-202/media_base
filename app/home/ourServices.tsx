@@ -35,6 +35,7 @@ const ourServices = () => {
                             </div>
                         ))}
                     </div>
+                    
                 </div>
             </div>
 
