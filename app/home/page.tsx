@@ -17,6 +17,7 @@ import InfoBanner from "@/components/InfoBanner";
 import SafetyStepsSection from "./safetyStepsData";
 import ImageSliderV1 from "@/components/ImageSlider 1"
 import ImageGallery from "@/components/ImageGallery";
+import NewsLetter from "@/components/newsLetter";
 
 export default function HomePage() {
   return (
@@ -35,6 +36,7 @@ export default function HomePage() {
       <ImageSliderV1  images={images} />
       <Healthcare />
       <ImageGallery />
+      <NewsLetter />
       <Testimonials />
       <GetReport />
       <AddMap />

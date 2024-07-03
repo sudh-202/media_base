@@ -64,7 +64,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
           People reach us to our customer care team, we would be happy to assist you to all means
         </p>
 
-        <div className="flex flex-col md:flex-row items-center  mt-4">
+        <div className="flex flex-col md:flex-row items-center gap-3 mt-4">
           <button className="flex items-center justify-center px-6 py-3 bg-teal-900 text-white rounded-full hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500">
             Our Services <span className="ml-2">→</span>
           </button>
@@ -72,10 +72,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
             <span role="img" aria-label="phone" className="mr-2">📞</span> 1800 889 8255
           </button>
         </div>
-
       </div>
-
-
     </div>
 
 
