@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
 
 interface ImageSliderProps {
@@ -37,12 +36,12 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative ">
-      <button className="absolute top-1/2 left-0 transform -translate-y-1/2" onClick={goToPrev}>
-        <IoIosArrowBack className="w-6 h-6" />
+    <div className="relative">
+      <button className="absolute top-1/2 left-[50px] transform -translate-y-1/2" onClick={goToPrev}>
+        <Image src="/arrowb1.webp" alt="Previous" width={24} height={24} />
       </button>
-      <button className="absolute top-1/2 right-0 transform -translate-y-1/2" onClick={goToNext}>
-        <IoIosArrowForward className="w-6 h-6" />
+      <button className="absolute top-1/2 right-[50px] transform -translate-y-1/2" onClick={goToNext}>
+        <Image src="/arrowb2.webp" alt="Next" width={24} height={24} />
       </button>
       <Image 
         src={isMobile ? images[currentIndex].mobile : images[currentIndex].desktop}
@@ -50,8 +49,11 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
         width={1920}
         height={1080}
         priority // This attribute ensures the image is loaded with high priority
-        className="lg:w-full" 
-        />
+        className="lg:w-full bg-contain" 
+      />
+      <button className="absolute right-0 top-[50%] transform translate-y-[-50%]">
+        <Image src="/sidebutton.webp" alt="" width={40} height={36} />
+      </button>
     </div>
   );
 };
