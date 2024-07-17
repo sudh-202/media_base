@@ -515,3 +515,27 @@ export const galleryimages = [
     alt: 'Child healthcare',
   },
 ];
+
+//seach page content
+
+
+export const healthCheckupDetails = {
+  title: "Essential Full Body Checkup + Reports in 6 Hours",
+  subTitle: "Tests for 68 Parameters",
+  description: "The Full Body Checkup- Essential includes doctor curated tests for the liver, kidneys, sugar, thyroid, cholesterol, blood, and urine, among others. This package helps detect potential health disorders and vitamin deficiencies. Screening for vitamin D and B12 deficiencies is vital for overall health. Deficiencies can cause weak bones, fatigue, numbness, mood swings, and impaired immunity. Regular checkups maintain optimal health, ensuring recommended levels of both vitamins.",
+  availability: "Available everyday from 6:30 AM to 10 PM",
+  samples: [
+    { 
+      src: '/Blood.webp',
+      alt: 'Blood',
+    },
+    { 
+      src: '/urine.webp',
+      alt: 'Urine',
+    },
+  ],
+  preparation: {
+    title: "Preparation required",
+    details: "No Fasting Required",
+  },
+};

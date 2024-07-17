@@ -7,12 +7,16 @@ const Navbar = () => {
     <nav>
       <section className="bg-[#51B2AC] flex justify-end items-center py-2 px-16 gap-8">
         <div className="flex items-center gap-2">
-          <Image src="/searchicon.webp" alt="Search" width={15} height={20} />
-          <span className="text-white">Search</span>
+
+          <Link href="/search" className="text-white flex flex-row gap-2 items-center">
+            <Image src="/searchicon.webp" alt="Search" width={100} height={100} className="w-[14px] h-[14px]" />
+            <span className="text-white">Search</span>
+          </Link>
+
         </div>
         <div className="flex items-center gap-2">
 
-          <span className="text-white flex flex-row gap-2 items-center">Toll free number: 
+          <span className="text-white flex flex-row gap-2 items-center">Toll free number:
             <Image src="/phone.webp" alt="Phone " className="h-full" width={15} height={20} />1800 889 8255</span>
         </div>
       </section>
@@ -26,7 +30,7 @@ const Navbar = () => {
                 alt="logo"
                 width={100}
                 height={120}
-                className="relative  -bottom-7" 
+                className="relative  -bottom-7"
               />
             </Link>
           </div>
