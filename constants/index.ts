@@ -539,3 +539,63 @@ export const healthCheckupDetails = {
     details: "No Fasting Required",
   },
 };
+
+// constants/index.ts
+export const faqData = [
+  {
+    title: 'CBC + ESR',
+    description: 'Press to expand',
+    content: [
+      'Hemoglobin',
+      'Total Leucocyte Count',
+      'RBC Count',
+      'Packed Cell Volume',
+      'Mean Corpuscular Volume (MCV)',
+      'MCH',
+      'MCHC',
+      'RDW-CV',
+      'RDW-SD',
+      'Platelet Count',
+      'MPV',
+      'PCT',
+      'Mentzer Index',
+      'Sehgal Index',
+      'Neutrophil',
+      'Monocyte',
+      'Basophil',
+      'Lymphocytes',
+      'Absolute Neutrophils',
+      'Absolute Lymphocytes',
+      'Absolute Monocytes',
+      'Absolute Eosinophils',
+      'Absolute Basophils',
+      'NLR (Neutrophil Lymphocyte ratio)',
+      'ESR',
+    ],
+  },
+  {
+    title: 'Urine Complete Analysis',
+    description: '27 parameters',
+    content: ['Urine Complete Analysis parameters'],
+  },
+  {
+    title: 'Liver Function Test',
+    description: '12 parameters',
+    content: ['Liver Function Test parameters'],
+  },
+  {
+    title: 'Smear for Malarial Parasite',
+    description: '1 parameter',
+    content: ['Smear for Malarial Parasite parameter'],
+  },
+  {
+    title: 'Typhidot',
+    description: '1 parameter',
+    content: ['Typhidot parameter'],
+  },
+  {
+    title: 'Dengue Profile (ELISA)',
+    description: '3 parameters',
+    content: ['Dengue Profile (ELISA) parameters'],
+  },
+];

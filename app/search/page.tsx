@@ -1,16 +1,20 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 import { healthCheckupDetails } from '@/constants/index';
+import AccordionComponent from "@/components/accordion";
+
 
 const Search: React.FC = () => {
     const { title, subTitle, description, availability, samples, preparation } = healthCheckupDetails;
 
     return (
-        <main className="p-[65px] ">
+        <main className="p-[65px]">
             <div className="flex gap-5 mb-20">
                 <section className="w-[70%]">
-                    <div className="bg-[#C9D851] p-[35px] rounded-2xl h-[40%]"></div>
-                    <div className="md:flex border border-[#0F3C49] rounded-2xl mx-[35px] mt-[-125px] bg-white">
+                    <div className="bg-[#C9D851] p-[35px] rounded-2xl h-[10%]"></div>
+                    <div className="md:flex border border-[#0F3C49] rounded-2xl mx-[35px] mt-[-120px] bg-white">
                         <div className=" flex-1">
                             <div className='flex gap-10 px-8 '>
                                 <div className='pt-8'>
@@ -19,7 +23,7 @@ const Search: React.FC = () => {
                                     <p className="text-black mb-6">{description}</p>
                                 </div>
                                 <div className='flex items-end'>
-                                    <Image src="/searchimg.webp" width={100} height={100} alt='image' className='w-[800px] h-[227px]' />
+                                    <Image src="/doctor.webp" width={100} height={100} alt='image' className='w-[1550px] h-[325px]' />
                                 </div>
 
                             </div>
@@ -44,6 +48,31 @@ const Search: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                    {/* new section */}
+                    <main className='py-16 px-[35px] '>
+                        <div className='flex justify-start items-center flex-row gap-20'>
+                            <div className='flex flex-row items-center gap-4 '>
+                                <Image src="/award.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
+                                <p className='text-xl text-[#6D6D6D]'>In-house labs
+                                    400+ test</p>
+                            </div>
+                            <div className='flex flex-row items-center gap-4 '>
+                                <Image src="/newreport.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
+                                <p className='text-xl text-[#6D6D6D]'>60 mins collection
+                                    6 AM - 10 PM</p>
+                            </div>
+                            <div className='flex flex-row items-center gap-4 '>
+                                <Image src="/quick.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
+                                <p className='text-xl text-[#6D6D6D]'>Reports in
+                                    6 hours</p>
+                            </div>
+                        </div>
+                        <div className='my-10 bg-[#FBFCF6] p-14 rounded-xl'>
+                            <h2 className='text-2xl font-semibold'>Tests Included</h2>
+                            <p className='text-md text-[#52B2AD] font-semibold pb-10'>6 tests | 69 parameters</p>
+                            <AccordionComponent />
+                        </div>
+                    </main>
                 </section>
                 <section className="w-[30%]">
                     <div className="p-6 bg-[#F5F6E5] rounded-2xl  ">
@@ -59,18 +88,22 @@ const Search: React.FC = () => {
                             <button className="bg-[#0F3C49] text-white w-full py-2 rounded-2xl shadow-md mb-4">Book now</button>
                         </div>
                         <div className='bg-white p-5  rounded-2xl'>
-                            <div className="flex items-center my-4">
-                                <span role="img" aria-label="Free home sample collection in 60 mins" className="mr-2">🚚</span>
-                                Free home sample collection in 60 mins
+                            <div className="flex items-center mb-4 gap-3">
+                                <Image src="/delivery.webp" width={50} height={50} alt='image' className='w-[35px] h-[26px]' />
+                                <p className='text-sm'>Free home sample collection in 60 mins</p>
                             </div>
-                            <div className="flex items-center">
-                                <span role="img" aria-label="Reports by Today" className="mr-2">📄</span>
-                                Reports by Today
+                            <div className=' border-[#6D6D6D] border-[1px] w-[90%]  mx-6' />
+                            <div className="flex items-center mt-4 gap-3">
+                                <Image src="/reports.webp" width={50} height={50} alt='image' className='w-[35px] h-[26px]' />
+                                <p className='text-sm'>Reports by Today</p>
                             </div>
                         </div>
                     </div>
                 </section>
             </div>
+
+
+
         </main>
     );
 };
