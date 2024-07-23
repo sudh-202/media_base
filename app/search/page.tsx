@@ -13,7 +13,7 @@ const Search: React.FC = () => {
             <div className="flex gap-5 mb-20">
                 <section className="w-[70%]">
                     <div className="bg-[#C9D851] p-[35px] rounded-2xl h-[10%]"></div>
-                    <div className="md:flex border border-[#0F3C49] rounded-2xl mx-[35px] mt-[-120px] bg-white">
+                    {/* <div className="md:flex border border-[#0F3C49] rounded-2xl mx-[35px] mt-[-120px] bg-white">
                         <div className=" flex-1">
                             <div className='flex gap-10 px-8 '>
                                 <div className='pt-8'>
@@ -33,7 +33,7 @@ const Search: React.FC = () => {
                                     <div className="flex space-x-10 justify-start">
                                         {samples.map((sample, index) => (
                                             <div key={index} className="flex items-center gap-3">
-                                                {/* <span role="img" aria-label={sample.type}>{sample.emoji}</span> */}
+                                            
                                                 <img src={sample.src} alt={sample.alt} className="w-10 h-10" />
                                                 <span>{sample.alt}</span>
                                             </div>
@@ -46,7 +46,7 @@ const Search: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* new section */}
                     <main className='py-16 px-[35px] '>
                         <div className='flex justify-start items-center flex-row gap-20'>
