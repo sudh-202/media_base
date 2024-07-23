@@ -3,10 +3,7 @@
 import Image from 'next/image';
 import { healthCheckupDetails, healthCheckup } from '@/constants/index';
 import AccordionComponent from "@/components/accordion";
-
-
 const Search: React.FC = () => {
-    const { name, subName, brief, availabile, sample, made } = healthCheckupDetails;
 const { title, subTitle, description, availability, samples, preparation, pricing, features } = healthCheckup;
 
 return (
@@ -18,21 +15,21 @@ return (
                     <div className=" flex-1">
                         <div className='flex gap-10 px-8 '>
                             <div className='pt-8'>
-                                <h2 className="text-2xl font-medium mb-2">{name}</h2>
-                                <p className="text-gray-600 mb-4">{subName}</p>
-                                <p className="text-black mb-6">{brief}</p>
+                                <h2 className="text-2xl font-medium mb-2">{title}</h2>
+                                <p className="text-gray-600 mb-4">{subTitle}</p>
+                                <p className="text-black mb-6">{description}</p>
                             </div>
                             <div className='flex items-end'>
                                 <Image src="/doctor.webp" width={100} height={100} alt='image' className='w-[1550px] h-[325px]' />
                             </div>
 
                         </div>
-                        <p className="text-gray-600  bg-[#F5F6E5] flex justify-center py-3">{availabile}</p>
+                        <p className="text-gray-600  bg-[#F5F6E5] flex justify-center py-3">{availability}</p>
                         <div className="mt-4 flex justify-between items-center p-8">
                             <div className="flex  flex-col justify-start">
                                 <span className="mr-2 text-lg text-gray-600 justify-start items-start mb-3 font-semibold">Sample(s) required</span>
                                 <div className="flex space-x-10 justify-start">
-                                    {sample.map((sample, index) => (
+                                    {samples.map((sample, index) => (
                                         <div key={index} className="flex items-center gap-3">
 
                                             <Image src={sample.src} width={100} height={100} alt={sample.alt} className="w-10 h-10" />
@@ -42,8 +39,8 @@ return (
                                 </div>
                             </div>
                             <div className="flex justify-start flex-col mr-40">
-                                <p className="font-semibold text-gray-600 text-xl">{made.title}</p>
-                                <p className="font-semibold text-gray-600 text-xl">{made.details}</p>
+                                <p className="font-semibold text-gray-600 text-xl">{preparation.title}</p>
+                                <p className="font-semibold text-gray-600 text-xl">{preparation.details}</p>
                             </div>
                         </div>
                     </div>
