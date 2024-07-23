@@ -8,6 +8,7 @@ export const NAV_LINKS = [
   { href: "/", key: "diagnosticservices ", label: "Diagnostic Services" },
   { href: "/careers", key: "career", label: "Career" },
   { href: "/contact", key: "contactus", label: "Contact us" },
+  { href: "/test", key: "search", label: "Search" },
 ];
 
 // HomePage

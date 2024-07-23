@@ -1,14 +1,9 @@
-"use client";
-
-import Image from 'next/image';
 import { healthCheckupDetails } from '@/constants/index';
-import AccordionComponent from "@/components/accordion";
+import Image from 'next/image';
 
-
-const Search: React.FC = () => {
+const Test: React.FC = () => {
     const { title, subTitle, description, availability, samples, preparation } = healthCheckupDetails;
-
-    return (
+    return ( 
         <main className="p-[65px]">
             <div className="flex gap-5 mb-20">
                 <section className="w-[70%]">
@@ -47,33 +42,8 @@ const Search: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    {/* new section */}
-                    <main className='py-16 px-[35px] '>
-                        <div className='flex justify-start items-center flex-row gap-20'>
-                            <div className='flex flex-row items-center gap-4 '>
-                                <Image src="/award.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
-                                <p className='text-xl text-[#6D6D6D]'>In-house labs
-                                    400+ test</p>
-                            </div>
-                            <div className='flex flex-row items-center gap-4 '>
-                                <Image src="/newreport.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
-                                <p className='text-xl text-[#6D6D6D]'>60 mins collection
-                                    6 AM - 10 PM</p>
-                            </div>
-                            <div className='flex flex-row items-center gap-4 '>
-                                <Image src="/quick.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
-                                <p className='text-xl text-[#6D6D6D]'>Reports in
-                                    6 hours</p>
-                            </div>
-                        </div>
-                        <div className='my-10 bg-[#FBFCF6] p-14 rounded-xl'>
-                            <h2 className='text-2xl font-semibold'>Tests Included</h2>
-                            <p className='text-md text-[#52B2AD] font-semibold pb-10'>6 tests | 69 parameters</p>
-                            <AccordionComponent />
-                        </div>
-                    </main>
-                </section>
-                <section className="w-[30%]">
+                    </section>
+                    <section className="w-[30%]">
                     <div className="p-6 bg-[#F5F6E5] rounded-2xl  ">
                         <div className='bg-white p-5 rounded-2xl mb-4'>
                             <div className=" text-white text-center p-4 rounded-lg flex justify-between">
@@ -102,9 +72,7 @@ const Search: React.FC = () => {
             </div>
 
         </main>
-    );
-};
-
-export default Search;
-
-// end
+     );
+}
+ 
+export default Test;
