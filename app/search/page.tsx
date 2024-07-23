@@ -48,7 +48,7 @@ const Search: React.FC = () => {
                         </div>
                     </div>
                     {/* new section */}
-                    <main className='py-16 px-[35px] '>
+                    {/* <main className='py-16 px-[35px] '>
                         <div className='flex justify-start items-center flex-row gap-20'>
                             <div className='flex flex-row items-center gap-4 '>
                                 <Image src="/award.webp" width={100} height={100} alt='image' className='w-[76px] h-[71px]' />
@@ -71,7 +71,7 @@ const Search: React.FC = () => {
                             <p className='text-md text-[#52B2AD] font-semibold pb-10'>6 tests | 69 parameters</p>
                             <AccordionComponent />
                         </div>
-                    </main>
+                    </main> */}
                 </section>
                 <section className="w-[30%]">
                     <div className="p-6 bg-[#F5F6E5] rounded-2xl  ">
