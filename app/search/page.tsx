@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { healthCheckupDetails } from '@/constants/index';
-import AccordionComponent from "@/components/accordion";
+// import AccordionComponent from "@/components/accordion";
 
 
 const Search: React.FC = () => {
@@ -69,7 +69,7 @@ const Search: React.FC = () => {
                         <div className='my-10 bg-[#FBFCF6] p-14 rounded-xl'>
                             <h2 className='text-2xl font-semibold'>Tests Included</h2>
                             <p className='text-md text-[#52B2AD] font-semibold pb-10'>6 tests | 69 parameters</p>
-                            <AccordionComponent />
+                            {/* <AccordionComponent /> */}
                         </div>
                     </main>
                 </section>
