@@ -606,8 +606,8 @@ export const healthCheckup = {
   description: 'The Full Body Checkup- Essential includes doctor curated tests for the liver, kidneys, sugar, thyroid, cholesterol, blood, and urine, among others. This package helps detect potential health disorders and vitamin deficiencies. Screening for vitamin D and B12 deficiencies is vital for overall health. Deficiencies can cause weak bones, fatigue, numbness, mood swings, and impaired immunity. Regular checkups maintain optimal health, ensuring recommended levels of both vitamins.',
   availability: 'Available 24/7',
   samples: [
-    { src: '/blood-sample.webp', alt: 'Blood Sample' },
-    { src: '/urine-sample.webp', alt: 'Urine Sample' }
+    { src: '/blood.webp', alt: 'Blood Sample' },
+    { src: '/urine.webp', alt: 'Urine Sample' }
   ],
   preparation: {
     title: 'Preparation Required',
