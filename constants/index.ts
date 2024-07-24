@@ -624,3 +624,26 @@ export const healthCheckup = {
     { imgSrc: '/quick.webp', description: 'Reports in 6 hours' }
   ]
 };
+
+export const carouselData = [
+  {
+    // title: "Fast, Safe and Accurate",
+    // description: "100% on time sample collection",
+    image: "/carausol2.webp"
+  },
+  {
+
+    image: "/carausol2.webp"
+  },
+  {
+
+    image: "/carausol2.webp"
+  }
+];
+
+export const easyOrderingSteps = [
+  "Select tests",
+  "Add your details",
+  "Book your slot"
+];
+
