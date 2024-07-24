@@ -20,7 +20,7 @@ return (
                                 <p className="text-black mb-6">{description}</p>
                             </div>
                             <div className='flex items-end'>
-                                <Image src="/doctor.webp" width={100} height={100} alt='image' className='w-[1550px] h-[325px]' />
+                                <Image src="/doctor.webp" width={100} height={100} alt='image' className='w-[1950px] h-[300px]' />
                             </div>
 
                         </div>
