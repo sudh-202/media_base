@@ -15,32 +15,33 @@ return (
                     <div className=" flex-1">
                         <div className='flex gap-10 px-8 '>
                             <div className='pt-8'>
-                                <h2 className="text-2xl font-medium mb-2">{title}</h2>
-                                <p className="text-gray-600 mb-4">{subTitle}</p>
-                                <p className="text-black mb-6">{description}</p>
+                                <h2 className="text-xl font-medium mb-2">{title}</h2>
+                                <p className="text-gray-600 mb-4 text-sm">{subTitle}</p>
+                                <p className="text-black mb-6 text-sm">{description}</p>
                             </div>
                             <div className='flex items-end'>
-                                <Image src="/doctor.webp" width={100} height={100} alt='image' className='w-[1950px] h-[300px]' />
+                                <Image src="/doctor.webp" width={100} height={100} alt='image' className='w-[1250px] h-[250px]' />
                             </div>
 
                         </div>
-                        <p className="text-gray-600  bg-[#F5F6E5] flex justify-center py-3">{availability}</p>
+                        <p className="text-gray-600  bg-[#F5F6E5] flex justify-center py-3 text-sm">{availability}</p>
                         <div className="mt-4 flex justify-between items-center p-8">
                             <div className="flex  flex-col justify-start">
-                                <span className="mr-2 text-lg text-gray-600 justify-start items-start mb-3 font-semibold">Sample(s) required</span>
+                                <span className="mr-2 text-base text-gray-600 justify-start items-start mb-3 font-semibold">Sample(s) required</span>
                                 <div className="flex space-x-10 justify-start">
                                     {samples.map((sample, index) => (
                                         <div key={index} className="flex items-center gap-3">
-
                                             <Image src={sample.src} width={100} height={100} alt={sample.alt} className="w-10 h-10" />
-                                            <span>{sample.alt}</span>
+                                            <p className='text-[16px]'>{sample.alt}</p>
                                         </div>
                                     ))}
                                 </div>
+                                
                             </div>
-                            <div className="flex justify-start flex-col mr-40">
-                                <p className="font-semibold text-gray-600 text-xl">{preparation.title}</p>
-                                <p className="font-semibold text-gray-600 text-xl">{preparation.details}</p>
+                            <div className='border-[#6D6D6D] border-[1px] w-[10%] transform rotate-90' />
+                            <div className="flex  justify-start flex-col ">
+                                <p className="font-semibold text-gray-600 text-base">{preparation.title}</p>
+                                <p className="font-semibold text-gray-600 text-base">{preparation.details}</p>
                             </div>
                         </div>
                     </div>
