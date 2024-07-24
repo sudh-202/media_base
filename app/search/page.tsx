@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { easyOrderingSteps, healthCheckup } from '@/constants/index';
 import Carousel from '@/components/carousel';
 import AccordionComponent from "@/components/accordion";
+import Link from 'next/link';
 const Search: React.FC = () => {
     const { title, subTitle, description, availability, samples, preparation, pricing, features } = healthCheckup;
 
@@ -77,7 +78,9 @@ const Search: React.FC = () => {
                                 </div>
                                 <span className="bg-[#E3EBA8] font-semibold text-gray-800 px-2 py-1 rounded-lg ml-2">{pricing.discount}</span>
                             </div>
-                            <button className="bg-[#0F3C49] text-white w-full py-2 rounded-2xl shadow-md mb-4">Book now</button>
+                            <Link href="/test">
+                            <button className="bg-[#0F3C49] text-white w-full py-2 rounded-2xl shadow-md mb-4" >Book now</button>
+                            </Link>
                         </div>
                         <div className='bg-white p-5 rounded-2xl'>
                             <div className="flex items-center mb-4 gap-3">

@@ -647,3 +647,10 @@ export const easyOrderingSteps = [
   "Book your slot"
 ];
 
+export const testContent = {
+  
+  title: 'Test name',
+  subTitle: 'Pathology ',
+  
+}
+
