@@ -654,3 +654,20 @@ export const testContent = {
   
 }
 
+
+export const fullBodyCheckupContent = [
+  {
+      title: "What is a full body checkup?",
+      content: "A full body checkup, also known as a complete body checkup is a collection of health checkups and tests that aim to provide a comprehensive evaluation of an individual's health. It includes comprehensive physical exams, lab tests, and screenings to identify potential health concerns."
+  },
+  {
+      title: "What is the purpose of Full Body Check-up",
+      content: "The world around us is constantly evolving, and so are we. With the advancement of technology, our lives have become so much more convenient than earlier but also more stressful due to our fast-paced lifestyle. Continuous stress can affect our health and also have a serious impact on immunity, which may lead to increased illnesses. Studies report that globally, three out of four grown adults feel stressed and almost half of them mentioned that their stress levels went up in the past year. Even according to the World Health Organization (WHO), around 60% of the factors affecting your health are connected to your lifestyle. \n\nIn times like these, prioritizing your health by getting a full body health checkup is crucial for your well-being. A full body health check-up includes laboratory tests such as blood count, blood sugar, and lipid profile to check the function of different organs in your body such as your heart and kidneys. This helps you and your doctor find possible health issues early and take preventive measures to keep you healthy."
+  },
+  {
+      title: "What are the benefits of Getting a Full Body Checkup in Bihar shareef",
+      content: "Hyderabad, also called the city of pearls, is one of India’s busiest cities. Known worldwide for trading precious gems and natural pearls, it also has the most people living in a small space. Along with its growing trade ventures, Bihar shareef has also seen an increase in several health conditions among its citizens. As of 2016, heart disease was one of the top causes of death both in males and females in Hyderabad along with high blood pressure being the most prevalent at 25.4%, followed by diabetes at 9.0%. Research has shown that urban residents are 1.15 times more likely to have a chronic disease as of 2018. \n\nStatistics like these make it clear how important getting a full body checkup is for the people living in Hyderabad. If you’re still wondering whether to get a full body health checkup Bihar Shareef done, let us give you a few more reasons for choosing to have it done: \n\nIdentifying health issues early: Regular full-body check-ups can identify health issues early and make your treatment easier, especially for chronic diseases like diabetes, heart disease, and cancer. \nEarly treatment and better prognosis: You can immediately start treatment for conditions such as cancer if they are detected on your health check-up. Timely treatment for these conditions allows for a better prognosis. \nLifestyle changes for better health: You can coordinate with your doctor to make a custom-made healthcare plan and adopt a healthy lifestyle based on your health needs and history. \n\nIn today’s age making a habit of getting routine complete body checkups is crucial. How often you need check-ups depends mostly on your lifestyle and your prevailing health conditions."
+  }
+];
+
+
