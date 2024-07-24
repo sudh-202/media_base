@@ -11,7 +11,7 @@ return (
         <div className="flex gap-5 mb-20">
             <section className="w-[70%]">
                 <div className="bg-[#C9D851] p-[35px] rounded-2xl h-[10%]"></div>
-                <div className="md:flex border border-[#0F3C49] rounded-2xl mx-[35px] mt-[-120px] bg-white">
+                <div className="md:flex border-2 border-[#52B2AD] rounded-2xl mx-[35px] mt-[-120px] bg-white">
                     <div className=" flex-1">
                         <div className='flex gap-10 px-8 '>
                             <div className='pt-8'>
